@@ -114,19 +114,6 @@ h2{
     position: relative;
 }
 
-
-.text-korean__bg{
-    width: 80%;
-    opacity: .1;
-    font-size: 12rem;
-    font-family: var(--font_heading_Ginger);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    
-}
-
 h3{
     font-size:var(--heading3_desktop);
     font-weight: var(--font_w_light);
@@ -148,7 +135,6 @@ h5{
 p{
     font-family: var(--font_paragraph);
     font-weight: var(--font_w_light);
-    font-size: var(--text_large);
 }
 a{
     text-decoration: none;
@@ -161,14 +147,19 @@ a:hover{
 }
 
 .container{
-    margin: 64px auto;
+    margin: 0 auto;
     width: min(90%, 140rem);
     text-align: center;
+}
+
+.header__logo{
+    margin: 64px 0;
 }
 
 .subtitle__text{
     font-size: 5rem;
     position: relative;
+    margin: 64px 0;
 }
 .subtitle__korean{
     width: 80%;
@@ -180,3 +171,39 @@ a:hover{
     transform: translate(-50%, -50%);
 }
 
+.main__contact{
+    margin: 64px 0;
+}
+.contact__list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    list-style: none;
+}
+
+.contact__link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.footer{
+    font-size: var(--text_small);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+@media (min-width: 768px){
+    .footer{
+        justify-content: space-between;
+    }
+}
+.legal__text{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    list-style: none;
+}
