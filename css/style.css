@@ -83,7 +83,7 @@ body{
     font-size: 1.6rem; /*16px*/
     line-height: 1.6;
     color: var(--black);
-    background-color: var(--beige_50);
+    
 }
 /*==== Globales =====*/
 .text-large{
@@ -135,6 +135,7 @@ h5{
 p{
     font-family: var(--font_paragraph);
     font-weight: var(--font_w_light);
+    text-wrap: balance;
 }
 b{
     font-weight: var(--font_w_bold);
@@ -208,6 +209,7 @@ img {
     font-size: 3.2rem;
     position: relative;
     margin: 64px 0;
+    animation: show 2s ease-in-out;
 }
 .subtitle__korean{
     width: 100%;
@@ -217,6 +219,21 @@ img {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+@keyframes show{
+    0%{
+        transform: scale(0);
+    }
+    25%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(0.9);
+    }
+    100%{
+        transform: scale(1);
+    }
 }
 
 .main__contact{
