@@ -209,7 +209,7 @@ img {
     font-size: 3.2rem;
     position: relative;
     margin: 80px 0;
-    animation: show 2s ease-in-out;
+    animation: show 2s linear;
 }
 .subtitle__korean{
     width: 100%;
@@ -226,10 +226,10 @@ img {
         transform: scale(0);
     }
     25%{
-        transform: scale(1);
+        transform: scale(0.9);
     }
     50%{
-        transform: scale(0.9);
+        transform: scale(0.8);
     }
     100%{
         transform: scale(1);
