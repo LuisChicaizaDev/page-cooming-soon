@@ -136,6 +136,9 @@ p{
     font-family: var(--font_paragraph);
     font-weight: var(--font_w_light);
 }
+b{
+    font-weight: var(--font_w_bold);
+}
 
 @media (min-width: 768px){
     h1{
