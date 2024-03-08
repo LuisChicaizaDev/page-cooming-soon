@@ -263,13 +263,6 @@ img {
     flex-wrap: wrap;
 }
 
-.legal__text{
-    display: flex;
-    flex-direction: row;
-    gap: 12px;
-    list-style: none;
-    padding: 0;
-}
 
 @media (min-width: 768px){
     h1{
@@ -289,11 +282,6 @@ img {
     .contact__title{
         font-size: var(--heading4_tablet);
     }
-    
-    .footer{
-        justify-content:space-between;
-    }
-
 }
 
 @media (min-width: 992px){
@@ -313,10 +301,6 @@ img {
 
     .contact__title{
         font-size: var(--heading4_desktop);
-    }
-
-    .legal__text{
-        gap: 24px;
     }
    
 }
