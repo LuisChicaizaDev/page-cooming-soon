@@ -10,14 +10,14 @@
     font-family: 'Ginger', serif;
     font-style: normal;
     font-display: swap;
-    font-weight: 100 900;
+    font-weight: normal;
     src: url(../fonts/Ginger.woff);
 }
 @font-face {
     font-family: 'Noto Sans KR';
     font-style: normal;
     font-display: swap;
-    font-weight:normal;
+    font-weight:100 900;
     src: url(../fonts/NotoSansKR-VariableFont_wght.ttf);
 }
 
