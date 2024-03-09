@@ -7,12 +7,13 @@
 }
 
 @font-face {
-    font-family: 'Ginger', serif;
+    font-family: 'Ginger';
     font-style: normal;
-    font-display: swap;
-    font-weight: normal;
-    src: url(../fonts/Ginger.woff),
-        url(../fonts/Ginger.ttf);
+    font-display: auto;
+    font-weight: 400;
+    src: url(../fonts/Ginger.woff2) format('woff2'), 
+        url(../fonts/Ginger.woff) format('woff'),
+        url(../fonts/Ginger.ttf) format('truetype');
 }
 @font-face {
     font-family: 'Noto Sans KR';
@@ -31,7 +32,7 @@
 }
 :root{
     --font_heading_Red_Rose: 'Red Rose';
-    --font_heading_Ginger: 'Ginger', serif;
+    --font_heading_Ginger: 'Ginger';
     --font_paragraph: 'Noto Sans KR';
     --font_w_bold: 700;
     --font_w_semiBold: 600;
