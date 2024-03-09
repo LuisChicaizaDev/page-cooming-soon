@@ -237,15 +237,31 @@ img {
     }
 }
 
-.info__text,
-.info__img{
+.info__text{
     margin: 40px 0;
 }
-.info__img{
-    width: 144px;
+
+.btn,
+.btn__reserva{
+    display: flex;
+    justify-content: center;
 }
-.info__img:hover{
-   filter: drop-shadow(-1px 1px 2px rgba(0,0,0,0.75));
+.btn__reserva{
+    align-items: center;
+    gap: 8px;
+    background-color: var(--beige_300);
+    border-radius: 8px;
+    padding: 10px 4px;
+    width: 144px;
+    height: 44px;
+    transition: background-color .5s;
+}
+.btn__reserva:hover{
+    background-color: var(--beige);
+    color: var(--black);
+}
+.btn__text{
+    font-weight: var(--font_w_semiBold);
 }
 .main__contact{
     margin: 40px 0;
