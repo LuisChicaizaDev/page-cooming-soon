@@ -117,6 +117,7 @@ h2{
 }
 
 h3{
+    font-family:var(--font_heading_Red_Rose);
     font-size:var(--heading3_movil);
     font-weight: var(--font_w_light);
 }
@@ -129,6 +130,7 @@ h4{
 }
 
 h5{
+    font-family:var(--font_heading_Red_Rose);
     font-size: var(--heading5_movil);
     line-height: 1.4;
     font-weight: var(--font_w_light);
