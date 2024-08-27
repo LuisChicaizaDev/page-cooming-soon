@@ -289,10 +289,18 @@ img {
     font-size: var(--text_small);
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
+.footer a{
+    text-decoration: underline;
+    text-underline-offset: .2rem;
+}
+
+.footer a:hover{
+    text-decoration: none;
+}
 
 @media (min-width: 768px){
     h1{
